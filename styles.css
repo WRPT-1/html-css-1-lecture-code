@@ -3,11 +3,11 @@ p {
     background-color: burlywood;
 }
 
-/* 
+
 * {
     background-color: cyan;
     background-color: red;
-} */
+}
 
 .chartreuse:hover {
     background-color: chartreuse;
@@ -24,6 +24,7 @@ p {
     width: 100px;
     padding: 20px;
     border: solid black 5px;
+    /* There's long form and short form ways to write certain properties! */
     border-style: dotted;
     border-width: 10px;
     border-color: red;
