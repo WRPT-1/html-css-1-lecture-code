@@ -1,0 +1,39 @@
+
+p {
+    background-color: burlywood;
+}
+
+/* 
+* {
+    background-color: cyan;
+    background-color: red;
+} */
+
+.chartreuse:hover {
+    background-color: chartreuse;
+}
+
+#end-of-the-world {
+    color: rebeccapurple;
+}
+
+#matt {
+    margin: 80px 40px;
+    box-sizing: border-box;
+    height: 120px;
+    width: 100px;
+    padding: 20px;
+    border: solid black 5px;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: red;
+}
+
+
+p {
+    background-color: ghostwhite;
+}
+
+span {
+    color: tomato;
+}
