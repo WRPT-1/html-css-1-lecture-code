@@ -6,28 +6,28 @@
     <meta name="keywords" content="Doge, dog, puppers, man's best friend" />
     <meta name="author" content="Matias">
     <meta name="description" content="'This is the greatest website ever! said no one, including my grandma'">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css"> <!--Make sure your reset css is before your stylesheet!-->>
     <link rel="stylesheet" href="styles.css" />
     <title>WRPT TOUR</title>
 </head>
 <body >
-    <p>This is about <span>Matt</span></p>
-    <!-- <header >
+    <header >
         <nav class="chartreuse">
-            <h1>Anything</h1>
+            <!--<h> tags don't get any smaller than h6. Only use 1 <h1>, 2 <h2>'s, and so on for better SEO-->>
+            <h1>Anything 1</h1>
             <h2>Anything 2</h2>
-            <h3>Anything 2</h3>
-            <h4>Anything 2</h4>
-            <h5>Anything 2</h5>
-            <h6>Anything 2</h6>
+            <h3>Anything 3</h3>
+            <h4>Anything 4</h4>
+            <h5>Anything 5</h5>
+            <h6>Anything 6</h6>
             <a href="https://www.google.com">Google</a>
         </nav>
-    </header> -->
-    <!-- <main> -->
-        <!-- <div>
-            <p></p>
-            <section>
-                <p></p>
+    </header>
+    <main>
+        <div>
+            <p>I'm a direct child of the div above me. </p>
+            <section> <!-- << This section tag is a child of the closest div above, a sibling to the p tag above, and a parent of the p tag on the line below-->
+                <p>I'm a descendant of the closest div above.</p>
             </section>
         </div>
     <div style="background-color: blanchedalmond">
@@ -41,12 +41,13 @@
         <img src="https://media4.giphy.com/media/gOkawaguYNiSI/giphy.gif?cid=ecf05e4728xcbpjqvtgbkzw9lvf83cuo9c1xf7nq9s3s5qlt&rid=giphy.gif" alt="nodding meme gif"/>
         <input type="password" placeholder="Insert Secrit Password"/>
         <button id="end-of-the-world">Launch Nukes</button>
-    </section> -->
-    <!-- <div style="width: 100px; height: 100px; background-color: cyan; float: right;">
+    </section>
+    <div style="width: 100px; height: 100px; background-color: cyan; float: right;"> <!--Don't use inline styling!-->
         <p style="float: left;">anadspojdasopjadsojpadsopjadsopjadsopjdaspojadsopjadjopadsojpadsjopadsojp</p></div>
     </main>
-
-    <footer></footer>    -->
+    <footer>
+        <!--By convention, stuff like contact info might go in the footer of a web page-->
+    </footer>   
 </main>
 </body>
 </html>
